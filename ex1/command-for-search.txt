@@ -1,0 +1,10 @@
+1. use this command on Unix systems to find unique filenames
+
+find PATH -maxdepth DEPTH -type 'f' -printf "%f\n" | sort -f | uniq
+
+where example
+find /var/opt -maxdepth 3 -type 'f' -printf "%f\n" | sort -f | uniq
+
+2. use bash find.sh for start script file
+
+3. use java Find "YOUR_PATH" "Depth" for start java code
